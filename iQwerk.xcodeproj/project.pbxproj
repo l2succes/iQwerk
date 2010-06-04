@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iQwerkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iQwerkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iQwerkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iQwerkViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iQwerkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iQwerkViewController.m */; };
+		7F0831A711B48E0C00FCA234 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0831A511B48E0C00FCA234 /* ConnectViewController.m */; };
+		7F3BE81111B861210011FCF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81011B861210011FCF9 /* Info.plist */; };
+		7F3BE81B11B861450011FCF9 /* arrow_full_down_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81311B861450011FCF9 /* arrow_full_down_32.png */; };
+		7F3BE81C11B861450011FCF9 /* arrow_full_left_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81411B861450011FCF9 /* arrow_full_left_32.png */; };
+		7F3BE81D11B861450011FCF9 /* arrow_full_lowerleft_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81511B861450011FCF9 /* arrow_full_lowerleft_32.png */; };
+		7F3BE81E11B861450011FCF9 /* arrow_full_lowerright_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81611B861450011FCF9 /* arrow_full_lowerright_32.png */; };
+		7F3BE81F11B861450011FCF9 /* arrow_full_right_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81711B861450011FCF9 /* arrow_full_right_32.png */; };
+		7F3BE82011B861450011FCF9 /* arrow_full_up_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81811B861450011FCF9 /* arrow_full_up_32.png */; };
+		7F3BE82111B861450011FCF9 /* arrow_full_upperleft_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81911B861450011FCF9 /* arrow_full_upperleft_32.png */; };
+		7F3BE82211B861450011FCF9 /* arrow_full_upperright_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE81A11B861450011FCF9 /* arrow_full_upperright_32.png */; };
+		7F3BE82411B861560011FCF9 /* Connect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F3BE82311B861560011FCF9 /* Connect.xib */; };
+		7F3BE85611B862F20011FCF9 /* AnalogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84011B862F20011FCF9 /* AnalogIn.m */; };
+		7F3BE85711B862F20011FCF9 /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84211B862F20011FCF9 /* Audio.m */; };
+		7F3BE85811B862F20011FCF9 /* DigitalIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84411B862F20011FCF9 /* DigitalIn.m */; };
+		7F3BE85911B862F20011FCF9 /* DigitalOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84611B862F20011FCF9 /* DigitalOut.m */; };
+		7F3BE85A11B862F20011FCF9 /* LED.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84811B862F20011FCF9 /* LED.m */; };
+		7F3BE85B11B862F20011FCF9 /* Motor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84911B862F20011FCF9 /* Motor.m */; };
+		7F3BE85C11B862F20011FCF9 /* MRPLPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84B11B862F20011FCF9 /* MRPLPeer.m */; };
+		7F3BE85D11B862F20011FCF9 /* Qwerk.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84D11B862F20011FCF9 /* Qwerk.m */; };
+		7F3BE85E11B862F20011FCF9 /* Servo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE84F11B862F20011FCF9 /* Servo.m */; };
+		7F3BE85F11B862F20011FCF9 /* TeRKCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE85111B862F20011FCF9 /* TeRKCommon.m */; };
+		7F3BE86011B862F20011FCF9 /* VelocityControllableMotor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE85311B862F20011FCF9 /* VelocityControllableMotor.m */; };
+		7F3BE86111B862F20011FCF9 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3BE85511B862F20011FCF9 /* Video.m */; };
+		7F5DDD5B11B380AB00DB73E7 /* iQwerk.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DDD5A11B380AB00DB73E7 /* iQwerk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iQwerkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQwerkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iQwerkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQwerkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iQwerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQwerk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iQwerkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iQwerkViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iQwerkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQwerkViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iQwerkViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = iQwerkViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iQwerk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQwerk_Prefix.pch; sourceTree = "<group>"; };
+		7F0831A411B48E0C00FCA234 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		7F0831A511B48E0C00FCA234 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		7F3BE81011B861210011FCF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3BE81311B861450011FCF9 /* arrow_full_down_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_down_32.png; sourceTree = "<group>"; };
+		7F3BE81411B861450011FCF9 /* arrow_full_left_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_left_32.png; sourceTree = "<group>"; };
+		7F3BE81511B861450011FCF9 /* arrow_full_lowerleft_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_lowerleft_32.png; sourceTree = "<group>"; };
+		7F3BE81611B861450011FCF9 /* arrow_full_lowerright_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_lowerright_32.png; sourceTree = "<group>"; };
+		7F3BE81711B861450011FCF9 /* arrow_full_right_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_right_32.png; sourceTree = "<group>"; };
+		7F3BE81811B861450011FCF9 /* arrow_full_up_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_up_32.png; sourceTree = "<group>"; };
+		7F3BE81911B861450011FCF9 /* arrow_full_upperleft_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_upperleft_32.png; sourceTree = "<group>"; };
+		7F3BE81A11B861450011FCF9 /* arrow_full_upperright_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_full_upperright_32.png; sourceTree = "<group>"; };
+		7F3BE82311B861560011FCF9 /* Connect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Connect.xib; sourceTree = "<group>"; };
+		7F3BE83F11B862F20011FCF9 /* AnalogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalogIn.h; sourceTree = "<group>"; };
+		7F3BE84011B862F20011FCF9 /* AnalogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalogIn.m; sourceTree = "<group>"; };
+		7F3BE84111B862F20011FCF9 /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		7F3BE84211B862F20011FCF9 /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
+		7F3BE84311B862F20011FCF9 /* DigitalIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalIn.h; sourceTree = "<group>"; };
+		7F3BE84411B862F20011FCF9 /* DigitalIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalIn.m; sourceTree = "<group>"; };
+		7F3BE84511B862F20011FCF9 /* DigitalOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalOut.h; sourceTree = "<group>"; };
+		7F3BE84611B862F20011FCF9 /* DigitalOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalOut.m; sourceTree = "<group>"; };
+		7F3BE84711B862F20011FCF9 /* LED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LED.h; sourceTree = "<group>"; };
+		7F3BE84811B862F20011FCF9 /* LED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LED.m; sourceTree = "<group>"; };
+		7F3BE84911B862F20011FCF9 /* Motor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motor.m; sourceTree = "<group>"; };
+		7F3BE84A11B862F20011FCF9 /* MRPLPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPLPeer.h; sourceTree = "<group>"; };
+		7F3BE84B11B862F20011FCF9 /* MRPLPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPLPeer.m; sourceTree = "<group>"; };
+		7F3BE84C11B862F20011FCF9 /* Qwerk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qwerk.h; sourceTree = "<group>"; };
+		7F3BE84D11B862F20011FCF9 /* Qwerk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qwerk.m; sourceTree = "<group>"; };
+		7F3BE84E11B862F20011FCF9 /* Servo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Servo.h; sourceTree = "<group>"; };
+		7F3BE84F11B862F20011FCF9 /* Servo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Servo.m; sourceTree = "<group>"; };
+		7F3BE85011B862F20011FCF9 /* TeRKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeRKCommon.h; sourceTree = "<group>"; };
+		7F3BE85111B862F20011FCF9 /* TeRKCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeRKCommon.m; sourceTree = "<group>"; };
+		7F3BE85211B862F20011FCF9 /* VelocityControllableMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocityControllableMotor.h; sourceTree = "<group>"; };
+		7F3BE85311B862F20011FCF9 /* VelocityControllableMotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocityControllableMotor.m; sourceTree = "<group>"; };
+		7F3BE85411B862F20011FCF9 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		7F3BE85511B862F20011FCF9 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		7F5DDD5911B380AB00DB73E7 /* iQwerk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iQwerk.h; sourceTree = "<group>"; };
+		7F5DDD5A11B380AB00DB73E7 /* iQwerk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iQwerk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F3BE8AF11B875EC0011FCF9 /* Ice Files */,
+				1D3623240D0F684500981E51 /* iQwerkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iQwerkAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iQwerkViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iQwerkViewController.m */,
+				7F5DDD5911B380AB00DB73E7 /* iQwerk.h */,
+				7F5DDD5A11B380AB00DB73E7 /* iQwerk.m */,
+				7F0831A411B48E0C00FCA234 /* ConnectViewController.h */,
+				7F0831A511B48E0C00FCA234 /* ConnectViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iQwerk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iQwerk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F3BE82311B861560011FCF9 /* Connect.xib */,
+				7F3BE81211B861450011FCF9 /* Resources */,
+				7F3BE81011B861210011FCF9 /* Info.plist */,
+				2899E5210DE3E06400AC0155 /* iQwerkViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F3BE81211B861450011FCF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F3BE81311B861450011FCF9 /* arrow_full_down_32.png */,
+				7F3BE81411B861450011FCF9 /* arrow_full_left_32.png */,
+				7F3BE81511B861450011FCF9 /* arrow_full_lowerleft_32.png */,
+				7F3BE81611B861450011FCF9 /* arrow_full_lowerright_32.png */,
+				7F3BE81711B861450011FCF9 /* arrow_full_right_32.png */,
+				7F3BE81811B861450011FCF9 /* arrow_full_up_32.png */,
+				7F3BE81911B861450011FCF9 /* arrow_full_upperleft_32.png */,
+				7F3BE81A11B861450011FCF9 /* arrow_full_upperright_32.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F3BE8AF11B875EC0011FCF9 /* Ice Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3BE83F11B862F20011FCF9 /* AnalogIn.h */,
+				7F3BE84011B862F20011FCF9 /* AnalogIn.m */,
+				7F3BE84111B862F20011FCF9 /* Audio.h */,
+				7F3BE84211B862F20011FCF9 /* Audio.m */,
+				7F3BE84311B862F20011FCF9 /* DigitalIn.h */,
+				7F3BE84411B862F20011FCF9 /* DigitalIn.m */,
+				7F3BE84511B862F20011FCF9 /* DigitalOut.h */,
+				7F3BE84611B862F20011FCF9 /* DigitalOut.m */,
+				7F3BE84711B862F20011FCF9 /* LED.h */,
+				7F3BE84811B862F20011FCF9 /* LED.m */,
+				7F3BE84911B862F20011FCF9 /* Motor.m */,
+				7F3BE84A11B862F20011FCF9 /* MRPLPeer.h */,
+				7F3BE84B11B862F20011FCF9 /* MRPLPeer.m */,
+				7F3BE84C11B862F20011FCF9 /* Qwerk.h */,
+				7F3BE84D11B862F20011FCF9 /* Qwerk.m */,
+				7F3BE84E11B862F20011FCF9 /* Servo.h */,
+				7F3BE84F11B862F20011FCF9 /* Servo.m */,
+				7F3BE85011B862F20011FCF9 /* TeRKCommon.h */,
+				7F3BE85111B862F20011FCF9 /* TeRKCommon.m */,
+				7F3BE85211B862F20011FCF9 /* VelocityControllableMotor.h */,
+				7F3BE85311B862F20011FCF9 /* VelocityControllableMotor.m */,
+				7F3BE85411B862F20011FCF9 /* Video.h */,
+				7F3BE85511B862F20011FCF9 /* Video.m */,
+			);
+			name = "Ice Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iQwerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iQwerk" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				7FD45B9A11AF5B2D00E75C03 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQwerk;
+			productName = iQwerk;
+			productReference = 1D6058910D05DD3D006BFB54 /* iQwerk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQwerk" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iQwerk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iQwerkViewController.xib in Resources */,
+				7F3BE81111B861210011FCF9 /* Info.plist in Resources */,
+				7F3BE81B11B861450011FCF9 /* arrow_full_down_32.png in Resources */,
+				7F3BE81C11B861450011FCF9 /* arrow_full_left_32.png in Resources */,
+				7F3BE81D11B861450011FCF9 /* arrow_full_lowerleft_32.png in Resources */,
+				7F3BE81E11B861450011FCF9 /* arrow_full_lowerright_32.png in Resources */,
+				7F3BE81F11B861450011FCF9 /* arrow_full_right_32.png in Resources */,
+				7F3BE82011B861450011FCF9 /* arrow_full_up_32.png in Resources */,
+				7F3BE82111B861450011FCF9 /* arrow_full_upperleft_32.png in Resources */,
+				7F3BE82211B861450011FCF9 /* arrow_full_upperright_32.png in Resources */,
+				7F3BE82411B861560011FCF9 /* Connect.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FD45B9A11AF5B2D00E75C03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $PLATFORM_NAME = iphonesimulator ]; then\n\tcp $ADDITIONAL_SDKS/usr/local/lib/*.dylib $BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iQwerkAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iQwerkViewController.m in Sources */,
+				7F5DDD5B11B380AB00DB73E7 /* iQwerk.m in Sources */,
+				7F0831A711B48E0C00FCA234 /* ConnectViewController.m in Sources */,
+				7F3BE85611B862F20011FCF9 /* AnalogIn.m in Sources */,
+				7F3BE85711B862F20011FCF9 /* Audio.m in Sources */,
+				7F3BE85811B862F20011FCF9 /* DigitalIn.m in Sources */,
+				7F3BE85911B862F20011FCF9 /* DigitalOut.m in Sources */,
+				7F3BE85A11B862F20011FCF9 /* LED.m in Sources */,
+				7F3BE85B11B862F20011FCF9 /* Motor.m in Sources */,
+				7F3BE85C11B862F20011FCF9 /* MRPLPeer.m in Sources */,
+				7F3BE85D11B862F20011FCF9 /* Qwerk.m in Sources */,
+				7F3BE85E11B862F20011FCF9 /* Servo.m in Sources */,
+				7F3BE85F11B862F20011FCF9 /* TeRKCommon.m in Sources */,
+				7F3BE86011B862F20011FCF9 /* VelocityControllableMotor.m in Sources */,
+				7F3BE86111B862F20011FCF9 /* Video.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "/Developer/SDKs/IceTouch-1.0/$(PLATFORM_NAME).sdk";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQwerk_Prefix.pch;
+				HEADER_SEARCH_PATHS = ./Classes;
+				INFOPLIST_FILE = "iQwerk-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-lIceObjC",
+					"-lGlacier2ObjC",
+				);
+				PRODUCT_NAME = iQwerk;
+				SDKROOT = iphonesimulator3.1.3;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "/Developer/SDKs/IceTouch-1.0/$(PLATFORM_NAME).sdk";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iQwerk_Prefix.pch;
+				HEADER_SEARCH_PATHS = ./Classes;
+				INFOPLIST_FILE = "iQwerk-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-lIceObjC",
+					"-lGlacier2ObjC",
+				);
+				PRODUCT_NAME = iQwerk;
+				SDKROOT = iphonesimulator3.1.3;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iQwerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iQwerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
